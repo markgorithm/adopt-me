@@ -12,24 +12,24 @@ const Pet = (props) => {
     {},
     [
       React.createElement("h1", {}, "Adopt Me!"),
-      React.createElement(Pet), {
+      React.createElement(Pet, {
         animal: "Cat",
         name: "Sofiberto",
         breed: "Orange"
-      },
-      React.createElement(Pet), {
+      }),
+      React.createElement(Pet, {
         animal: "Cat",
-        name: "Sofiberto",
+        name: "Chuy Alberto",
         breed: "Orange"
-      }, React.createElement(Pet), {
+      }), React.createElement(Pet, {
         animal: "Cat",
-        name: "Sofiberto",
-        breed: "Orange"
-      }, React.createElement(Pet), {
+        name: "Chikistrikis",
+        breed: "White"
+      }), React.createElement(Pet, {
         animal: "Cat",
-        name: "Sofiberto",
-        breed: "Orange"
-      },
+        name: "Beans",
+        breed: "Black"
+      }),
     ]
   );
 };
