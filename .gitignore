@@ -1,13 +1,8 @@
-.log
-logs
-**/*.backup.*
-**/*.back.*
+node_modules/
+bower_components/
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
 
-node_modules
-bower_components
-
-*.sublime*
-
-psd
-thumb
-sketch
